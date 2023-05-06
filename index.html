@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+
+</head>
+
+<body>
+
+    <img
+        src="https://img.freepik.com/free-photo/nature-colorful-landscape-dusk-cloud_1203-5705.jpg?size=626&ext=jpg&ga=GA1.1.1286214261.1677341666&semt=ais">
+
+    <h1>Temperature Converter</h1>
+
+    <div class="container">
+
+        <div class="input" id="value">
+            <input type="number" placeholder="Temperature" id="t">
+        </div>
+
+
+        <div class="input" id="unit">
+            <input type="radio" name="temp" id="c">
+            <label>°C</label><br><br>
+
+
+            <input type="radio" name="temp" id="f">
+            <label>°F</label><br><br>
+
+            <input type="radio" name="temp" id="k">
+            <label>K</label><br>
+
+        </div>
+
+        <div class="btn">
+            <button onclick="convert()">Convert</button>
+        </div>
+
+
+        <div class="output">
+            <p id="Temp1"></p>
+            <p id="Temp2"></p>
+        </div>
+
+
+
+    </div>
+
+    <div>
+        <p class="footer">Copyright © Mashood 2023</p>
+    </div>
+
+
+
+
+
+    <script src="./index.js"></script>
+
+
+</body>
+
+</html>
